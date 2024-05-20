@@ -9,6 +9,8 @@ import data from "./components/tree-view/data.js";
 import TreeExample from "./components/tree-view-example/index.jsx";
 import LightDarkMode from "./components/light-dark";
 import ScrollIndicator from "./components/scroll-indicator";
+import Tabs from "./components/custom-tabs/Tab.js";
+import Github from "./components/github_profile";
 function App() {
   return (
     <div className="App">
@@ -21,7 +23,9 @@ function App() {
       {/* <TreeExample data={data} /> */}
       {/* <LoadMoreData /> */}
       {/* <LightDarkMode /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      {/* <Tabs /> */}
+     {/*<Github /> */}
     </div>
   );
 }
