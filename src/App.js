@@ -1,4 +1,3 @@
-import "./App.css";
 import Accordian from "./components/accordian";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
@@ -11,9 +10,12 @@ import LightDarkMode from "./components/light-dark";
 import ScrollIndicator from "./components/scroll-indicator";
 import Tabs from "./components/custom-tabs/Tab.js";
 import Github from "./components/github_profile";
+import Search_autocomplete from "./components/search-autocomplete/index.jsx";
+import Users from "./ArrowFunction.js";
+import Tic_Tac_Toe from "./components/tic-tac-toe/index.jsx";
 function App() {
   return (
-    <div className="App">
+    <div className="Apps">
       {/* <Accordian></Accordian> */}
       {/* <RandomColor></RandomColor> */}
       {/* <StarRating noofStars={10}/> */}
@@ -25,7 +27,10 @@ function App() {
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <Tabs /> */}
-     {/*<Github /> */}
+      {/*<Github /> */}
+      {/* <Search_autocomplete /> */}
+      {/* <Users /> */}
+      <Tic_Tac_Toe />
     </div>
   );
 }
