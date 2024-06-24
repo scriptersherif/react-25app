@@ -13,12 +13,15 @@ import Github from "./components/github_profile";
 import Search_autocomplete from "./components/search-autocomplete/index.jsx";
 import Users from "./ArrowFunction.js";
 import Tic_Tac_Toe from "./components/tic-tac-toe/index.jsx";
+import Aos from "./components/aos/index.jsx";
+import Todos from "./components/reducer/index.js";
+import IncomeExpensesTracker from "./components/expensetracker/index.js";
 function App() {
   return (
     <div className="Apps">
       {/* <Accordian></Accordian> */}
       {/* <RandomColor></RandomColor> */}
-      {/* <StarRating noofStars={10}/> */}
+      {/* <StarRating noofStars={10} /> */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={10} /> */}
       {/* <LoadMoreData /> */}
       {/* <Treeview menus={data} /> */}
@@ -30,7 +33,10 @@ function App() {
       {/*<Github /> */}
       {/* <Search_autocomplete /> */}
       {/* <Users /> */}
-      <Tic_Tac_Toe />
+      {/* <Aos/> */}
+      {/* reducer */}
+      {/* <Todos /> */}
+      <IncomeExpensesTracker />
     </div>
   );
 }
